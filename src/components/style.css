@@ -1,0 +1,149 @@
+.nav-container {
+    position: relative;
+    top: 0;
+    color: white;
+    background-color: #468C98;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center
+}
+
+.nav-menu > div {
+    margin: 0.5rem
+}
+
+.footer-container {
+    position: sticky;
+    bottom: 0;
+    color: white;
+    background-color: #468C98;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
+
+.content-container {
+    min-height: 100vh
+}
+
+.wheater-container {
+    width: 500px;
+    background-color: #468C98;
+    color: white;
+    border-radius: 10px
+}
+
+.wheater-container > .wheater-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem
+}
+
+.wheater-container > .wheater-title > .wheater-date > button {
+    background-color: white;
+    border-radius: 10px;
+    border-color: white;
+    margin: 0.25rem
+}
+
+.widget-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px
+}
+
+.wheater-sub-title {
+    padding: 0.5rem;
+    background-color: #237888;
+}
+
+.whether-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px
+}
+
+.whether-content-container > .image {
+    flex: 1
+}
+
+.whether-content-container > .image > .box-img {
+    height: 150px
+}
+
+.whether-content-container > .image > .box-img > img {
+    width: 100px
+}
+
+
+
+.whether-content-container > .temp {
+    flex: 1
+}
+
+.whether-content-container > .temp > .box-temp {
+    height: 150px
+}
+
+.whether-content-container > .temp > .box-temp > span {
+    font-size: 100px
+}
+
+
+
+.whether-content-container > .detail {
+    flex: 1
+}
+
+.whether-content-container > .detail > .detail-header {
+    height: 150px;
+    display: flex;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    border: 1px solid #c5c5c5;
+}
+
+.next-weater {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-1 {
+    flex: 1
+}
+
+.m-1 {
+    margin: 1rem
+}
+
+.icon-weater {
+    width: 30px
+}
+
+.card-weater {
+    background-color: #237888;
+    border-radius: 25px;
+    margin: 0.5rem
+
+}
